@@ -12,6 +12,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-style: oblique;
+    text-align: center;
 }
 
 #index-page {
@@ -36,6 +37,9 @@ h2 {
 }
 
 .list-heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
     list-style-type: square;
 }
 
@@ -45,9 +49,58 @@ h2 {
 }
 
 .link-heading {
-    border: 10px groove #97a2a2;
-    padding-left: 5px;
+    width: 200px;
+    margin: 0 auto;
+    border: 5px solid #97a2a2;
     color: #f08521;
     font-size: 2.2em;
 }
 
+img {
+    width: 100%;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+}
+
+.grid {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    padding: 20px 10px;
+}
+
+.block {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.link-body {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+
+.link-body li a:hover {
+    opacity: .5;
+    transition: opacity ease-in-out .2s;
+}
+
+a:link {
+    color: rgb(0, 191, 255);
+}
+
+a:visited {
+    color: darkviolet;
+}
+
+a:hover {
+    color: green;
+}
